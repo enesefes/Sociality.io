@@ -1,0 +1,54 @@
+.Navigation-ClientLogos {
+  width: 66px;
+  height: auto;
+}
+
+.Navigation-ClientLogos__logos {
+  padding: 10px 10px 10px 0px;
+}
+
+.client__logo {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.client__logo > .active__logo {
+  width: 10px;
+  height: 100;
+  background: #f55561;
+  border-radius: 10px 100px 100px 10px;
+}
+
+.non__active__logo {
+  background: black;
+}
+
+.Notification {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  background-color: #3ac1a9;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+}
+
+.active__logo__span {
+  width: 100px;
+  height: 100%;
+  background-color: red;
+}
+
+.client__img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  opacity: 0.2;
+  margin: 5px 0px 5px 5px;
+}
+
+.active__image {
+  opacity: 1;
+}
